@@ -1,0 +1,36 @@
+<html>
+  <body>
+    <div id="title">
+      <h1>Welcome to Axel's Webpage</h1>
+      <p>This is where dreams come true</p>
+      <button onclick="makeDreamComeTrue()">Make dreams come true</button>
+    </div>
+  </body>
+</html>
+
+<style>
+  body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbrYzQI_JG8KLS4Fj0FfDGAvi9biQbsTLZxW9PZyF6UQ&s=10");
+    background-size: cover;
+  }
+  #title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  h1 {
+    color: blue;
+  }
+  button:hover {
+    background-color: red;
+    cursor: pointer;
+    font-size: 20px;
+  }
+</style>
+
+<script>
+  function makeDreamComeTrue() {
+    document.body.style.background =
+      'URL("https://media1.tenor.com/m/nANqORN7qhQAAAAC/explosion-explode.gif")';
+    document.getElementById("title").style.visibility = "hidden";
+  }
+</script>
