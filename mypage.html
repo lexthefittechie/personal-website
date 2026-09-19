@@ -5,14 +5,30 @@
       href="https://fonts.googleapis.com/css2?family=Armata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./aboutmesection/aboutmesection.css" />
   </head>
   <body>
-    <div class="main-section" id="title">
-      <h1 class="title-section-header">Alexander Ibhawo</h1>
-      <p class="title-section-subheader">Helping men build health and wealth</p>
-      <button class="title-section-button" onclick="makeDreamComeTrue()">
+    <div class="mainsection" id="title">
+      <h1 class="titlesectionheader">Alexander Ibhawo</h1>
+      <p class="titlesectionsubheader">Helping men build health and wealth</p>
+      <button class="titlesectionbutton" onclick="makeDreamComeTrue()">
         Lock In
       </button>
+    </div>
+    <div class="miscsection" id="aboutme">
+      <div class="textblockcontainer">
+        <h1 id="aboutme">About me</h1>
+        <p class="aboutmesectiondescription">
+          I am a computer science graduate now turned software engineer.
+          Throughout my life journey, i realized the true power that software
+          programming and computer engineering skills can give to you. So i have
+          decided to embark on a course aimed at developing the ability to solve
+          any prolem in any domain with software. With the right guidance and
+          direction, we all have the capacity to grow into the best version of
+          ourselves, live a life of genuine purpose and impact the people we
+          love. Stay tuned to see the apps i will build below.
+        </p>
+      </div>
     </div>
   </body>
 </html>
@@ -28,11 +44,22 @@
     padding: 0;
   }
 
-  .main-section {
+  .mainsection {
     width: 100vw;
     height: 100vh;
     background-size: cover;
     padding: 25px;
+  }
+
+  .miscsection {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 100px 25px;
+  }
+
+  .textblockcontainer {
+    max-width: 65%;
+    margin: 0 auto;
   }
 </style>
 

@@ -11,15 +11,15 @@
     background-position: center-top;
 }
 
-.title-section-header{
+.titlesectionheader{
     margin-bottom: 5px;
 }
 
-.title-section-subheader{
+.titlesectionsubheader{
     margin-bottom: 40px;
 }
 
-.title-section-button{
+.titlesectionbutton{
     color: var(--titleSectionprimaryColor);
     border: 1px solid var(--titleSectionprimaryColor);
     padding: 15px 20px;
@@ -27,7 +27,7 @@
     border-radius: 5px;
 }
 
-.title-section-button:hover {
+.titlesectionbutton:hover {
     background-color: var(--titleSectionprimaryColor);
     color: var(--titleSectionsecondaryColor);
     cursor: pointer;
