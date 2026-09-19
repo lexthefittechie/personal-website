@@ -1,6 +1,8 @@
 #title {
     text-align: center;
     padding-top: 200px;
+    background-image: url("../images/desertart.jpg");
+    background-position: center-top;
 }
 
 h1 {
