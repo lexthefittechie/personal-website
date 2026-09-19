@@ -1,16 +1,24 @@
+:root {
+    --titleSectionprimaryColor: #f5f5f5;
+}
+
 #title {
+    color: var(--titleSectionprimaryColor);
     text-align: center;
     padding-top: 200px;
     background-image: url("../images/desertart.jpg");
     background-position: center-top;
 }
 
-h1 {
-    color: blue;
+.title-section-button{
+    color: var(--titleSectionprimaryColor);
+    border: 1px solid var(--titleSectionprimaryColor);
+    padding: 15px 20px;
+    background-color: transparent;
+    border-radius: 5px;
 }
 
-button:hover {
+.title-section-button:hover {
     background-color: red;
     cursor: pointer;
-    font-size: 20px;
 }
