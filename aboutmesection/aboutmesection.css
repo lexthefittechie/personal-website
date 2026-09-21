@@ -4,4 +4,20 @@
 
  .aboutmesectiondescription {
      text-align: justify;
+     margin-top: 40px;
  }
+
+.aboutmeicons{
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+.aboutmeicon{
+    margin: 10px;
+    color: var(--titleSectionsecondaryColor);
+}
+
+.aboutmeicon:hover{
+    cursor: pointer;
+    color: var(--titleSectiontertiarycolor);
+}
