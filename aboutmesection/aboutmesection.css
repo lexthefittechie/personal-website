@@ -10,6 +10,11 @@
 .aboutmeicons{
     font-size: 25px;
     margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.aboutmeicons > a{
+    text-decoration: none;
 }
 
 .aboutmeicon{
@@ -20,4 +25,8 @@
 .aboutmeicon:hover{
     cursor: pointer;
     color: var(--titleSectiontertiarycolor);
+}
+
+.aboutmedownloadlink > a{
+    color: black;
 }
